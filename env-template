@@ -1,0 +1,13 @@
+# Rename this file to .env to actually use it
+
+# Uncomment the following and set to the desired port value. By default,
+# Jupyter server starts at port 8888
+# JUPYTER_PORT=5000
+
+# Uncomment the following and set your own JUPYTER_PASSWORD. You can set the value to blank (as shown below) to remove password all together
+# JUPYTER_PASSWORD=
+
+# The following sets the project name such that by default
+# docker compose project name would include the user's login name
+# to decrease the chance of name collision
+COMPOSE_PROJECT_NAME=${LOGNAME}_project

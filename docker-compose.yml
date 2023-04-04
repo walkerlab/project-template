@@ -1,0 +1,8 @@
+version: '3'
+services:
+  dev:
+    build: .
+    environment:
+      - "JUPYTER_PASSWORD=${JUPYTER_PASSWORD:-walkerlab}"
+    volumes:
+      - .:/src/project
